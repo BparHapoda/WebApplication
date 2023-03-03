@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration page</title>
+</head>
+<style>
+
+    .menu {
+        border: 1px black solid;
+        background: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#007db9e8', GradientType=0); /* IE6-9 */
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.71);
+        max-width: 500px;
+        height: 400px;
+        padding: 20px;
+        margin: auto;
+
+    }
+
+    .item {
+        width: 98%;
+        margin-top: 15px;
+        height: 30px;
+    }
+
+    .submitButton {
+        margin-top: 30px;
+        height: 50px;
+        width: 200px;
+
+    }
+
+    .divSubmit {
+        display: flex;
+
+        width: 98%;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+<body>
+<div class="menu">
+    <form action="login" method="get">
+        <input class="item" type="text" placeholder="Ваше имя" name="name">
+        <input class="item" type="text" placeholder="Ваша фамилия" name="surname">
+        <input class="item" type="email" placeholder="Адрес лектронной почты" name="email">
+        <input class="item" type="password" placeholder="password" name="password">
+        <input class="item" type="password" placeholder="password" name="password1">
+        <div class="divSubmit">
+            <input class="submitButton" type="submit">
+            <h2>Copyright Boronin.ru </h2>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
