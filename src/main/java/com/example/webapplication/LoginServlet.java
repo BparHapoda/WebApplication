@@ -12,7 +12,7 @@ import static java.awt.SystemColor.info;
 
 public class LoginServlet extends HttpServlet {
 
-    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
         String name = request.getParameter("name");
         String surname = request.getParameter("surname");
